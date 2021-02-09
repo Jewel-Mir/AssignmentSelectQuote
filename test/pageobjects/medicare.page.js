@@ -4,7 +4,10 @@ class MedicarePage extends Page {
     // Elements go here
 
     get plansButton () { return $('a=Plans')}
-    get typeOfPlanNeeded () { return $('a=Type of Plan Needed')}
+    get typeOfPlanNeeded () { return $("//div[@class='anchor-wrap']")}
     
+
+
+  
 }
-export { MedicarePage }
+export { HomePage }

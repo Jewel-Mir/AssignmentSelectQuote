@@ -13,11 +13,9 @@ describe('medicare selectquote home page',  () => {
     })
 
    it('should move to Plans and click on "Type of Plan Needed" button',() => {
-     medicare.plansButton.moveTo()
-     browser.pause(3000)
-     medicare.typeOfPlanNeeded.moveTo()
-     medicare.typeOfPlanNeeded.click()
-     browser.pause(3000)
+   medicare.plansButton.moveTo()
+   medicare.typeOfPlanNeeded.click()
+   browser.pause(3000)
    
    })
 })
